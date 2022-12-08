@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 268
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 1,
+      "storeName": "+lJ9btmdRbElVRoCvX7dX+g",
+      "addressDetail": "+bEmWM1M6bEmWM1knkFM-139+U/dsSVVGTgBpfICvX7dX+g",
+      "pro": "Wi-Fi,+cLlVMWc6,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 2,
+      "storeName": "+VC9lsA",
+      "addressDetail": "+Ti1fw3Z+jSeAr1+3V/o-027-82839999",
+      "pro": "Wi-Fi,+cLlVMWc6,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 3,
+      "storeName": "+lgWabFc6",
+      "addressDetail": "+mZZOSVwPUzo-45+aAs-1+XEI-1+U/c",
+      "pro": "Wi-Fi,+cLlVMWc6,+XpdRhVPCicI,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 4,
+      "storeName": "+bBFhDw",
+      "addressDetail": "+mRBThXU1i93/Gg-18572830682+eFpT41M6UW2J0k6tiFeQU04tXHFZJ5BT-285+U/d/jllHVv2WRV5/VzpOAGl8",
+      "pro": "Wi-Fi,+cLlVMWc6,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 5,
+      "storeName": "+grFoZQ",
+      "addressDetail": "+gLJiTU6MXA9lwf8IgrFoZU4AZ1E-15+U/f/CQ",
+      "pro": "Wi-Fi,+cLlVMWc6,+XpdRhVPCicI,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 6,
+      "storeName": "+X6p5PJXo",
+      "addressDetail": "+bF9sSVM6bF9sSY3v-257+U/c",
+      "pro": "+cLlVMWc6,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 7,
+      "storeName": "+Ti1TF43v",
+      "addressDetail": "+Ti1TF43v-1+U/dbtk5QeY+NhV4C",
+      "pro": "Wi-Fi,+cLlVMWc6,+fL6QCV6X,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 8,
+      "storeName": "+a2ZsSV+QThw",
+      "addressDetail": "+X5BOHFkniFc-18+U/eVAFTBgwJOAFxC",
+      "pro": "+cLlVMWc6,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 9,
+      "storeName": "+lKKQ/YKxVu0",
+      "addressDetail": "+l1JccVM6Vu1nl43vTi12fk7TUKiNLXJpXn9XOk4AaXz/CA-123+iFdXSg-50+aAs-1+XEL/CQ",
+      "pro": "+cLlVMWc6,+XpdRhVPCicI,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    },
+    {
+      "rownum": 10,
+      "storeName": "+c4tenA",
+      "addressDetail": "+Tgl3PGhl-26+U/c-13554546403",
+      "pro": "+cLlVMWc6,+eTxUwVNh",
+      "provinceName": "+blZTF3cB",
+      "cityName": "+a2ZsSV4C"
+    }
+  ]
+}
