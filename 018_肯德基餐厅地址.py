@@ -31,7 +31,7 @@ def get_response(req):
 
 
 def down_load(start, content):
-    with open('KFC_地址' + str(start) + '.json', 'w', encoding='utf-7') as fp:
+    with open('KFC_地址' + str(start) + '.json', 'w', encoding='utf-8') as fp:
         fp.write(content)
 
 
