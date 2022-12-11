@@ -6,5 +6,7 @@
 
 # 使用步骤
 # 1. 安装scrapy : pip3 install Scrapy
-# 2. 使用命令创建项目 : Scrapy startprojcet 项目名称
-# /Users/mac/Library/Python/3.8/scrapy
+# 2. 使用命令创建项目 : Scrapy startproject scrapy_baidu_simple_042
+# 3. 进入 cd scrapy_baidu_simple_042/scrapy_baidu_simple_042/spiders
+# 4. 创建爬虫文件 eg: scrapy genspider baidu www.baidu.com
+# 5. 运行爬虫的名字 scrapy crawl 爬虫的名字  eg: scrapy crawl baidu

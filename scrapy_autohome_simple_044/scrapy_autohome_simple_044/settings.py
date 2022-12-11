@@ -1,4 +1,4 @@
-# Scrapy settings for scrapy_baidu_simple_042 project
+# Scrapy settings for scrapy_autohome_simple_044 project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,17 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapy_baidu_simple_042'
+BOT_NAME = 'scrapy_autohome_simple_044'
 
-SPIDER_MODULES = ['scrapy_baidu_simple_042.spiders']
-NEWSPIDER_MODULE = 'scrapy_baidu_simple_042.spiders'
+SPIDER_MODULES = ['scrapy_autohome_simple_044.spiders']
+NEWSPIDER_MODULE = 'scrapy_autohome_simple_044.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'scrapy_baidu_simple_042 (+http://www.yourdomain.com)'
+#USER_AGENT = 'scrapy_autohome_simple_044 (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-# ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -45,13 +45,13 @@ NEWSPIDER_MODULE = 'scrapy_baidu_simple_042.spiders'
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'scrapy_baidu_simple_042.middlewares.ScrapyBaiduSimple042SpiderMiddleware': 543,
+#    'scrapy_autohome_simple_044.middlewares.ScrapyAutohomeSimple044SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'scrapy_baidu_simple_042.middlewares.ScrapyBaiduSimple042DownloaderMiddleware': 543,
+#    'scrapy_autohome_simple_044.middlewares.ScrapyAutohomeSimple044DownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ NEWSPIDER_MODULE = 'scrapy_baidu_simple_042.spiders'
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'scrapy_baidu_simple_042.pipelines.ScrapyBaiduSimple042Pipeline': 300,
+#    'scrapy_autohome_simple_044.pipelines.ScrapyAutohomeSimple044Pipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
