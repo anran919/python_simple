@@ -59,6 +59,10 @@ ROBOTSTXT_OBEY = True
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 # }
 
+# 指定日志级别
+# LOG_LEVEL ='WARNING'
+LOG_FILE ='运行日志.log'
+
 # 数据库配置
 # DB_HOST = 'localhost'
 DB_HOST = '127.0.0.1'
