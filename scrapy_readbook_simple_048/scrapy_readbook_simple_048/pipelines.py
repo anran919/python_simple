@@ -24,7 +24,6 @@ class ScrapyReadbookSimple048Pipeline:
 
 # 加载settings文件
 from scrapy.utils.project import get_project_settings
-
 class MySqlPipeline:
     def open_spider(self, spider):
         settings = get_project_settings()
@@ -46,11 +45,14 @@ class MySqlPipeline:
             db=self.db_name,
             charset=self.charset)
         self.cursor = self.conn.cursor()
+        self.count =1
 
     def process_item(self, item, spider):
         sql = "insert into books (name,src) values ('{}','{}')".format(item['name'], item['src'])
         self.cursor.execute(sql)
         self.conn.commit()
+        self.count =self.count+1
+        print('------',self.count)
         return item
 
     def close_spider(self, spider):
