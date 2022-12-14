@@ -1,1 +1,5 @@
-{"name": "tome", "age": 19, "color": "yellow"}
+{
+  "name": "tome",
+  "age": 19,
+  "color": "yellow"
+}

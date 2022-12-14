@@ -49,3 +49,14 @@ dog = {
 content = json.load(r)
 print(content)
 r.close()
+
+# 循环读取每一行
+rf = open('data.json', 'r', encoding='utf-8')
+for line in rf:
+    print('循环读取', line)
+rf.close()
+
+# with open 语法,不需要手动关闭
+with open('data.json', 'r', encoding='utf-8') as f:
+    for line in f:
+        print('循环读取', line)

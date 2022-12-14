@@ -48,3 +48,24 @@ for v in authors:
 print(len(authors))
 for i in range(len(authors)):
     print(authors[i])
+
+# while
+i = 0
+while i < 10:
+    print(f'结果是{i}')
+    i = i + 1
+
+# break 和continue
+
+i = 0
+# while i < 10:
+#     i = i + 1
+#     print('break :',i)
+#     if (i == 5):
+#         break;
+
+while i < 10:
+    i = i + 1
+    print('111')
+    continue
+    print('2222')

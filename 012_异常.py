@@ -10,3 +10,15 @@ try:
 except FileNotFoundError:
     print("文件不存在")
 
+# 捕获所有异常
+try:
+    r = open('data.txt', 'r')
+    10 / 0
+except(FileNotFoundError, ZeroDivisionError) as e:  # 捕获多个异常
+    print(e)
+except Exception as e:  # 捕获所以异常
+    print(e)
+else:  # 没有异常
+    print('没有异常')
+finally:
+    print('finally ,无论如何都要执行')  # 一定执行
