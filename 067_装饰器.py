@@ -5,6 +5,8 @@
 # @Project : python_space
 
 
+# 装饰器,方法一
+
 def sleep():
     import time
     import random
@@ -12,6 +14,7 @@ def sleep():
     time.sleep(random.randint(1, 5))
 
 
+#
 def outer(fun):
     def inner():
         print('我准备睡觉了')
@@ -23,3 +26,25 @@ def outer(fun):
 
 out = outer(sleep)
 out()
+
+
+# 装饰器,方法二
+
+def outer1(func):
+    def inner():
+        print('我要睡觉了----')
+        func()
+        print('我睡醒了-----')
+
+    return inner
+
+
+@outer1
+def sleep1():
+    import random
+    import time
+    print('睡眠中---')
+    time.sleep(random.randint(1, 5))
+
+
+sleep1()
